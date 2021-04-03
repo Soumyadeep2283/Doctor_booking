@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="0.9"
+    android:background="@drawable/doctorimage">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1FA077">
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textColor="#00030A"
+        android:textSize="26sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-italic"
+        android:layout_weight="0.29"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:id="@+id/tv1"
+        android:text="CheckUp Time From"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/im"
+        android:layout_weight="0.3"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:src="@drawable/time"/>
+
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textColor="#00030A"
+        android:textSize="26sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-italic"
+        android:layout_weight="0.29"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:id="@+id/tv2"
+        android:text="CheckUp Time To"
+        android:gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>

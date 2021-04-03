@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:padding="7dp"
+    android:background="@drawable/doctorimage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#C6FFEB3B">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_weight="0.5"
+        android:id="@+id/department"
+        android:src="@drawable/department"
+        app:civ_border_color="#E90909"
+        app:civ_border_width="3dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/t"
+
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-bold"
+        android:layout_margin="24dp"
+        android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+</LinearLayout>
